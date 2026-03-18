@@ -59,3 +59,4 @@ Pipfile.lock
 
 # Environment variables (if using dotenv)
 .env
+notes.txt

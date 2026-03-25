@@ -5,6 +5,11 @@ from .models import Student
 from .serializers import StudentSerializer, StudentUpdateSerializer
 
 
+class HomeAPIView(APIView):
+    def get(self, request):
+        return Response({"message": "Welcome to DRF 🚀"})
+    
+
 class StudentListCreateAPIView(APIView):
     """
     GET  -> List all students
